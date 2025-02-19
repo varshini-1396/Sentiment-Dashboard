@@ -12,7 +12,7 @@ st.sidebar.title("Sentiment Analysis of tweets about US Airlines")
 st.markdown("This application is a streamlit dashboard used to analyze the sentiment of tweets")
 st.sidebar.markdown("This application is a streamlit dashboard used to analyze the sentiment of tweets")
 
-DATA_URL= ("/home/coder/Desktop/Project/Tweets.csv")
+DATA_URL= ("Tweets.csv")
 @st.cache_data(persist=True)
 def load_data():
     data= pd.read_csv(DATA_URL)
